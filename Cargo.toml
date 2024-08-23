@@ -1,0 +1,7 @@
+[package]
+name = "rustrover-bug-reproduce-15459"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+temporal-client = { git = "https://github.com/temporalio/sdk-core.git", version = "0.1.0-alpha.1", rev = "ae98adb3c3952a3eddb30c41a359a7ebfa9d8e21" }
